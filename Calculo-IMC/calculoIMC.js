@@ -39,15 +39,3 @@ if (IMC < 18.5) {
 } else {
     console.log("Houve um erro no cálculo. Tente novamente.");
 }
-
-// if (IMC < 18.5) {
-//     console.log("Você está abaixo do peso.");
-// } else if (IMC >= 18.5 && IMC < 25) {
-//     console.log("Você está no peso ideal.");
-// } else if (IMC >= 25 && IMC < 30) {
-//     console.log("Você está com sobrepeso.");
-// } else if (IMC >= 30) {
-//     console.log("Você está com obesidade.");
-// } else {
-//     console.log("Houve um erro no cálculo do IMC.");
-// }
