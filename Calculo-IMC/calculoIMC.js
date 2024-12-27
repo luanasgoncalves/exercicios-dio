@@ -37,7 +37,7 @@ if (IMC < 18.5) {
 } else if (IMC >= 40) {
     console.log("Você está com obesidade grau III (mórbida).");
 } else {
-    console.log("Houve um erro de cálculo. Tente novamente.");
+    console.log("Houve um erro no cálculo. Tente novamente.");
 }
 
 // if (IMC < 18.5) {
