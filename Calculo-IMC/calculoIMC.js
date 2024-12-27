@@ -15,3 +15,39 @@
 //  Entre 35,0 e 39,9 | Obesidade grau II (severa)
 
 //  Maior ou igual a 40 | Obesidade grau III (mórbida)
+
+const altura = prompt("Digite aqui sua altura (utilize pontos, não vírgula)");
+const peso = prompt("Digite aqui seu peso (utilize pontos, não vírgula)");
+
+const valorAltura = parseFloat(altura.replace(",", "."));
+const valorPeso = parseFloat(peso.replace(",", "."));
+
+const IMC = valorPeso / (valorAltura * valorAltura);
+
+if (IMC < 18.5) {
+    console.log("Você está abaixo do peso.");
+} else if (IMC >= 18.6 && IMC <= 24.9) {
+    console.log("Você está no peso ideal.");
+} else if (IMC >= 25 && IMC <= 29.9) {
+    console.log("Você está levemente acima do peso.");
+} else if (IMC >= 30 && IMC <= 34.9) {
+    console.log("Você está com obesidade grau I.");
+} else if (IMC >= 35 && IMC <= 39) {
+    console.log("Você está com obesidade grau II (severa).");
+} else if (IMC >= 40) {
+    console.log("Você está com obesidade grau III (mórbida).");
+} else {
+    console.log("Houve um erro de cálculo. Tente novamente.");
+}
+
+// if (IMC < 18.5) {
+//     console.log("Você está abaixo do peso.");
+// } else if (IMC >= 18.5 && IMC < 25) {
+//     console.log("Você está no peso ideal.");
+// } else if (IMC >= 25 && IMC < 30) {
+//     console.log("Você está com sobrepeso.");
+// } else if (IMC >= 30) {
+//     console.log("Você está com obesidade.");
+// } else {
+//     console.log("Houve um erro no cálculo do IMC.");
+// }
