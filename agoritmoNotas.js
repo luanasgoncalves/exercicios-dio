@@ -20,14 +20,14 @@ console.log("A média de notas é igual a:", media);
 
 // outro exemplo de código:
 
-let nota1, nota2, nota3;
+// let nota1, nota2, nota3;
 
-do {
-  nota1 = parseFloat(prompt("Digite a primeira nota (entre 0 e 10):"));
-} while (nota1 < 0 || nota1 > 10);
+// do {
+//   nota1 = parseFloat(prompt("Digite a primeira nota (entre 0 e 10):"));
+// } while (nota1 < 0 || nota1 > 10);
 
-// ... repetir para nota2 e nota3
+// // ... repetir para nota2 e nota3
 
-const media = (nota1 + nota2 + nota3) / 3;
+// const media = (nota1 + nota2 + nota3) / 3;
 
-console.log("A média de notas é igual a:", media.toFixed(2));
+// console.log("A média de notas é igual a:", media.toFixed(2));
